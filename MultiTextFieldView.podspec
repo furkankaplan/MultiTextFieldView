@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint OTPPinEntryView.podspec' to ensure this is a
+#  Be sure to run `pod spec lint MultiTextFieldView.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -24,9 +24,9 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "OTPPinEntryView framework provides you the simple view containing multiple textfield for handling OTP. It's totally designed for simplicity and usability. Apple's one time code feature is also available in your view."
+  spec.description  = "MultiTextFieldView framework provides you the simple view containing multiple textfield for handling OTP. It's totally designed for simplicity and usability. Apple's one time code feature is also available in your view."
 
-  spec.homepage     = "https://github.com/furkankaplan/OTPPinEntryView"
+  spec.homepage     = "https://github.com/furkankaplan/MultiTextFieldView"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
