@@ -1,0 +1,6 @@
+framework module Pods_MultiTextFieldViewExample {
+  umbrella header "Pods-MultiTextFieldViewExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

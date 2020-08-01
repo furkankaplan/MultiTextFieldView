@@ -2,8 +2,8 @@
   "name": "MultiTextFieldView",
   "version": "1.0.0",
   "summary": "Apple style MultiTextField View.",
-  "description": "OTPPinEntryView framework provides you the simple view containing multiple textfield for handling OTP. It's totally designed for simplicity and usability. Apple's one time code feature is also available in your view.",
-  "homepage": "https://github.com/furkankaplan/OTPPinEntryView",
+  "description": "MultiTextFieldView framework provides you the simple view containing multiple textfield for handling OTP. It's totally designed for simplicity and usability. Apple's one time code feature is also available in your view.",
+  "homepage": "https://github.com/furkankaplan/MultiTextFieldView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -16,7 +16,8 @@
     "ios": "11.0"
   },
   "source": {
-    "path": "."
+    "git": "https://github.com/furkankaplan/MultiTextFieldView.git",
+    "tag": "1.0.0"
   },
   "source_files": "MultiTextFieldView/Source"
 }

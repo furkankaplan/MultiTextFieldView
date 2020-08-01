@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_OTPPinEntryViewExampleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_OTPPinEntryViewExampleVersionString[];
+FOUNDATION_EXPORT double Pods_MultiTextFieldViewExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_MultiTextFieldViewExampleVersionString[];
 
