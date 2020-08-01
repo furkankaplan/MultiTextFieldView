@@ -1,24 +1,24 @@
-# OTPPinEntryView
+# MultiTextFieldView
 
-This is a framework providing Apple style OTP view with multiple textfields. Designed for simplicity and easy to use. OTPPinEntryView handles the code sent in message as verification code by the one-time code property created by Apple, Inc. If you are running with iOS 12 and newer, one time code property is activated automatically. [Apple Documentation](https://developer.apple.com/documentation/uikit/uitextcontenttype/2980930-onetimecode)
+This is a framework providing Apple style multiple textfield view with OTP(One Time Code) property. Designed for simplicity and easy to use. MultiTextFieldView handles the code sent in message as verification code by the one-time code property created by Apple, Inc. If you are running with iOS 12 and newer, one time code property is activated automatically. [Apple Documentation](https://developer.apple.com/documentation/uikit/uitextcontenttype/2980930-onetimecode)
 
 ## How to install?
 
-You can add OTPPinEntryView by using CocoaPods.
+You can add MultiTextFieldView by using CocoaPods.
 
 ```
-pod 'OTPPinEntryView'
+pod 'MultiTextFieldView'
 ```
 
-<img src="OTPPinEntryView/Screenshot/implementation-example.gif" width="30%" height="30%"/>
+<img src="MultiTextFieldView/Screenshot/implementation-example.gif" width="30%" height="30%"/>
 
 ## How to use?
 
 As a default, number of digit of OTP is **zero**. Because of that you **must** define the length of your otp code. And you must assign a referance to **delegate** to handle the otp successfully inputted.
 <br><br>
-**otpPinEntry(string:)** method is called just after OTP is entered successfully and provides you full OTP code.
+**multiTextField(string:)** method is called just after OTP is entered successfully and provides you full OTP code.
 <br>
-**otpPinEntry(focused:, tag:)** method is called just after each otp textfield is focused. The method gives all textfield references with the tag of active textfield.
+**multiTextField(focused:, tag:)** method is called just after each otp textfield is focused. The method gives all textfield references with the tag of active textfield.
 <br><br>
 You can check it out in **Example**.
 
