@@ -67,6 +67,8 @@ public class MultiTextFieldView: UIView, UITextFieldDelegate {
     
     public var isSecure: Bool = false
     
+    public var keyboardType: UIKeyboardType = .numberPad
+    
     public var count: Int = 0 {
         didSet {
             for indice in 0..<count {
@@ -88,7 +90,7 @@ public class MultiTextFieldView: UIView, UITextFieldDelegate {
                 field.textAlignment = alignment
                 field.font = font
                 field.isSecureTextEntry = isSecure
-                field.keyboardType = .numberPad
+                field.keyboardType = keyboardType
             }
         }
     }
