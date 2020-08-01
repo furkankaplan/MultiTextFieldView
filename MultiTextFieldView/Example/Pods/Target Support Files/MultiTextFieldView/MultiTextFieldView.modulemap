@@ -1,0 +1,6 @@
+framework module MultiTextFieldView {
+  umbrella header "MultiTextFieldView-umbrella.h"
+
+  export *
+  module * { export * }
+}

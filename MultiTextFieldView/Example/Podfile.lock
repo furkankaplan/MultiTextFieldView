@@ -1,0 +1,16 @@
+PODS:
+  - MultiTextFieldView (1.0.0)
+
+DEPENDENCIES:
+  - MultiTextFieldView (from `../../`)
+
+EXTERNAL SOURCES:
+  MultiTextFieldView:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  MultiTextFieldView: 5718eaad2f01891e31b90056c641522ebdf1053e
+
+PODFILE CHECKSUM: 6887f0908f691d8a52d7429e39d72f3c4df43dc1
+
+COCOAPODS: 1.9.3

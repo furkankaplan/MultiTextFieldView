@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3109A011AA4B8E80590573E3EB445FD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		66E3E341AB98604CE3D192AE94290492 /* MultiTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90D3E1E76B57936B8FC02E6CDC7463F /* MultiTextFieldView.swift */; };
+		7B7CBFCFEED8DCFAE271151FA1013722 /* MultiTextFieldView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F054874CA6962EEBBBDF0B315C1ECFF /* MultiTextFieldView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0B4E9188C1A2C4AB455A52AB5703DBF /* MultiTextFieldView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92442CBF9176AF61124AEE1C916A96E9 /* MultiTextFieldView-dummy.m */; };
+		A29D4DDF12D57AD552AA67E92641E41F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B638E78B49CDEE92D1E930F060BC3BDD /* MultiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E36D3F3D2F5604560027C2FA182D273 /* MultiTextField.swift */; };
+		C131226183876F419CCEEF5BD6FCF89A /* Pods-OTPPinEntryViewExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A284ACF483E9D06E4BC1DF9BCFEAA3A9 /* Pods-OTPPinEntryViewExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E26D566EDD15B30D1A6B10BE0D3B0A34 /* Pods-OTPPinEntryViewExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 017FF4092C431DD198B85D9057EC502A /* Pods-OTPPinEntryViewExample-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0545448160FFDE46B907BFC59FC3050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3191F48F1C9389A44E6A13DC8512D0EC;
+			remoteInfo = MultiTextFieldView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017FF4092C431DD198B85D9057EC502A /* Pods-OTPPinEntryViewExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTPPinEntryViewExample-dummy.m"; sourceTree = "<group>"; };
+		1D17CF172B91FB9F19F868688072C906 /* Pods-OTPPinEntryViewExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTPPinEntryViewExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2399B118E2AF5757DCECFDB5E52EF3F1 /* Pods-OTPPinEntryViewExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTPPinEntryViewExample-frameworks.sh"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4468B41BBB87606FABFC6D55C9A15772 /* MultiTextFieldView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MultiTextFieldView.debug.xcconfig; sourceTree = "<group>"; };
+		4BC4A9E4CBC4F8F4A506AE211E2ABD2C /* MultiTextFieldView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MultiTextFieldView-Info.plist"; sourceTree = "<group>"; };
+		626D38DAD6AFBF96F9C16DA3B020AD43 /* Pods-OTPPinEntryViewExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTPPinEntryViewExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E7CCF95DF0A4B05730F90747E9F0B33 /* MultiTextFieldView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MultiTextFieldView.release.xcconfig; sourceTree = "<group>"; };
+		805F474261042D0694B7994EE3AD888E /* MultiTextFieldView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MultiTextFieldView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		848D16E45714894223B2F10C238297B8 /* Pods-OTPPinEntryViewExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTPPinEntryViewExample-Info.plist"; sourceTree = "<group>"; };
+		88AA481A9D57AB36DD0A27008A016915 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8E36D3F3D2F5604560027C2FA182D273 /* MultiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiTextField.swift; path = MultiTextFieldView/Source/MultiTextField.swift; sourceTree = "<group>"; };
+		92442CBF9176AF61124AEE1C916A96E9 /* MultiTextFieldView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MultiTextFieldView-dummy.m"; sourceTree = "<group>"; };
+		9CD50E8A3E5711EF134D9F91EDA95EDE /* Pods-OTPPinEntryViewExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTPPinEntryViewExample.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F054874CA6962EEBBBDF0B315C1ECFF /* MultiTextFieldView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MultiTextFieldView-umbrella.h"; sourceTree = "<group>"; };
+		A284ACF483E9D06E4BC1DF9BCFEAA3A9 /* Pods-OTPPinEntryViewExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTPPinEntryViewExample-umbrella.h"; sourceTree = "<group>"; };
+		C6E786068CB7C7242A8F33808C0AFA8D /* MultiTextFieldView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MultiTextFieldView.modulemap; sourceTree = "<group>"; };
+		C89F77BCA6759749FC23A65854A9999E /* Pods-OTPPinEntryViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTPPinEntryViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		C90D3E1E76B57936B8FC02E6CDC7463F /* MultiTextFieldView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiTextFieldView.swift; path = MultiTextFieldView/Source/MultiTextFieldView.swift; sourceTree = "<group>"; };
+		D8EE03F224ECC18397D828870223A0AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D98563080476E36CF626CB0A5B2F0CFB /* MultiTextFieldView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MultiTextFieldView.framework; path = MultiTextFieldView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7419AA675BA9A56FA90A9FBF0DFFBF9 /* MultiTextFieldView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MultiTextFieldView-prefix.pch"; sourceTree = "<group>"; };
+		EB86D96067A5F5F341A61BEF520AEB2E /* Pods_OTPPinEntryViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTPPinEntryViewExample.framework; path = "Pods-OTPPinEntryViewExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CD404307BB3FF3EC4A125E8371D40B /* Pods-OTPPinEntryViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTPPinEntryViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9FFE48CF2FD23A0B2719A893142A66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29D4DDF12D57AD552AA67E92641E41F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1677A511D82CD37698D0FE57FA62DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3109A011AA4B8E80590573E3EB445FD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DCA1E9844E81D92C2BA4E14CEF4B0F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D98563080476E36CF626CB0A5B2F0CFB /* MultiTextFieldView.framework */,
+				EB86D96067A5F5F341A61BEF520AEB2E /* Pods_OTPPinEntryViewExample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B5F61193376C623BEDEB31BBEDFCAFA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6E786068CB7C7242A8F33808C0AFA8D /* MultiTextFieldView.modulemap */,
+				92442CBF9176AF61124AEE1C916A96E9 /* MultiTextFieldView-dummy.m */,
+				4BC4A9E4CBC4F8F4A506AE211E2ABD2C /* MultiTextFieldView-Info.plist */,
+				E7419AA675BA9A56FA90A9FBF0DFFBF9 /* MultiTextFieldView-prefix.pch */,
+				9F054874CA6962EEBBBDF0B315C1ECFF /* MultiTextFieldView-umbrella.h */,
+				4468B41BBB87606FABFC6D55C9A15772 /* MultiTextFieldView.debug.xcconfig */,
+				6E7CCF95DF0A4B05730F90747E9F0B33 /* MultiTextFieldView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "MultiTextFieldView/Example/Pods/Target Support Files/MultiTextFieldView";
+			sourceTree = "<group>";
+		};
+		9DF911F6E89FE670CA5223197363402F /* MultiTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				8E36D3F3D2F5604560027C2FA182D273 /* MultiTextField.swift */,
+				C90D3E1E76B57936B8FC02E6CDC7463F /* MultiTextFieldView.swift */,
+				F84EACDCFCD7DEF01115F9BACAA21184 /* Pod */,
+				5B5F61193376C623BEDEB31BBEDFCAFA /* Support Files */,
+			);
+			name = MultiTextFieldView;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E19CBC0FDB10E7B70354FC0794C43F6B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1DCA1E9844E81D92C2BA4E14CEF4B0F6 /* Products */,
+				D77355A1311B0FD0003BA8EC5CB8D38D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D77355A1311B0FD0003BA8EC5CB8D38D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8AC7B410D38ED35D3816665A3FEB13E /* Pods-OTPPinEntryViewExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E19CBC0FDB10E7B70354FC0794C43F6B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DF911F6E89FE670CA5223197363402F /* MultiTextFieldView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E8AC7B410D38ED35D3816665A3FEB13E /* Pods-OTPPinEntryViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				9CD50E8A3E5711EF134D9F91EDA95EDE /* Pods-OTPPinEntryViewExample.modulemap */,
+				1D17CF172B91FB9F19F868688072C906 /* Pods-OTPPinEntryViewExample-acknowledgements.markdown */,
+				626D38DAD6AFBF96F9C16DA3B020AD43 /* Pods-OTPPinEntryViewExample-acknowledgements.plist */,
+				017FF4092C431DD198B85D9057EC502A /* Pods-OTPPinEntryViewExample-dummy.m */,
+				2399B118E2AF5757DCECFDB5E52EF3F1 /* Pods-OTPPinEntryViewExample-frameworks.sh */,
+				848D16E45714894223B2F10C238297B8 /* Pods-OTPPinEntryViewExample-Info.plist */,
+				A284ACF483E9D06E4BC1DF9BCFEAA3A9 /* Pods-OTPPinEntryViewExample-umbrella.h */,
+				F7CD404307BB3FF3EC4A125E8371D40B /* Pods-OTPPinEntryViewExample.debug.xcconfig */,
+				C89F77BCA6759749FC23A65854A9999E /* Pods-OTPPinEntryViewExample.release.xcconfig */,
+			);
+			name = "Pods-OTPPinEntryViewExample";
+			path = "Target Support Files/Pods-OTPPinEntryViewExample";
+			sourceTree = "<group>";
+		};
+		F84EACDCFCD7DEF01115F9BACAA21184 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D8EE03F224ECC18397D828870223A0AD /* LICENSE */,
+				805F474261042D0694B7994EE3AD888E /* MultiTextFieldView.podspec */,
+				88AA481A9D57AB36DD0A27008A016915 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D444D4237468D178B6CCD8B557801E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B7CBFCFEED8DCFAE271151FA1013722 /* MultiTextFieldView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E1BBAAE81B260160B7554BCCBE5F50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C131226183876F419CCEEF5BD6FCF89A /* Pods-OTPPinEntryViewExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3191F48F1C9389A44E6A13DC8512D0EC /* MultiTextFieldView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A48D21C5014F666CBE052A1A99FD770 /* Build configuration list for PBXNativeTarget "MultiTextFieldView" */;
+			buildPhases = (
+				0D444D4237468D178B6CCD8B557801E2 /* Headers */,
+				567C666D292FF86D25923270CD16393E /* Sources */,
+				CE1677A511D82CD37698D0FE57FA62DA /* Frameworks */,
+				073CE5B612E023789E6752A1FC9C878F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiTextFieldView;
+			productName = MultiTextFieldView;
+			productReference = D98563080476E36CF626CB0A5B2F0CFB /* MultiTextFieldView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8EE5D13D7105D1291A91BFF01CEFE74C /* Pods-OTPPinEntryViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C746F3B6A806FFD082654AD9C0E8BA /* Build configuration list for PBXNativeTarget "Pods-OTPPinEntryViewExample" */;
+			buildPhases = (
+				C8E1BBAAE81B260160B7554BCCBE5F50 /* Headers */,
+				9BB1E4A973B25ABD60BBBC942EB750D1 /* Sources */,
+				C9FFE48CF2FD23A0B2719A893142A66D /* Frameworks */,
+				AFFBB68E228F9E3553DAD277B56AE8F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E971FF93390FDBD6E5A195C4A5AD9168 /* PBXTargetDependency */,
+			);
+			name = "Pods-OTPPinEntryViewExample";
+			productName = "Pods-OTPPinEntryViewExample";
+			productReference = EB86D96067A5F5F341A61BEF520AEB2E /* Pods_OTPPinEntryViewExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1DCA1E9844E81D92C2BA4E14CEF4B0F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3191F48F1C9389A44E6A13DC8512D0EC /* MultiTextFieldView */,
+				8EE5D13D7105D1291A91BFF01CEFE74C /* Pods-OTPPinEntryViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		073CE5B612E023789E6752A1FC9C878F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFBB68E228F9E3553DAD277B56AE8F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		567C666D292FF86D25923270CD16393E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B638E78B49CDEE92D1E930F060BC3BDD /* MultiTextField.swift in Sources */,
+				A0B4E9188C1A2C4AB455A52AB5703DBF /* MultiTextFieldView-dummy.m in Sources */,
+				66E3E341AB98604CE3D192AE94290492 /* MultiTextFieldView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB1E4A973B25ABD60BBBC942EB750D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26D566EDD15B30D1A6B10BE0D3B0A34 /* Pods-OTPPinEntryViewExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E971FF93390FDBD6E5A195C4A5AD9168 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MultiTextFieldView;
+			target = 3191F48F1C9389A44E6A13DC8512D0EC /* MultiTextFieldView */;
+			targetProxy = D0545448160FFDE46B907BFC59FC3050 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21D9026CFCEADE9050B43BE0120BBF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7CD404307BB3FF3EC4A125E8371D40B /* Pods-OTPPinEntryViewExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTPPinEntryViewExample/Pods-OTPPinEntryViewExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTPPinEntryViewExample/Pods-OTPPinEntryViewExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2327D980A37B1907C3872D78F2286ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4468B41BBB87606FABFC6D55C9A15772 /* MultiTextFieldView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MultiTextFieldView/MultiTextFieldView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MultiTextFieldView/MultiTextFieldView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MultiTextFieldView/MultiTextFieldView.modulemap";
+				PRODUCT_MODULE_NAME = MultiTextFieldView;
+				PRODUCT_NAME = MultiTextFieldView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		673D8C4D21463E6441666CFC06B7650B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C89F77BCA6759749FC23A65854A9999E /* Pods-OTPPinEntryViewExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTPPinEntryViewExample/Pods-OTPPinEntryViewExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTPPinEntryViewExample/Pods-OTPPinEntryViewExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DE41BA8F5E61B5E9262BCC53DBF96A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E7CCF95DF0A4B05730F90747E9F0B33 /* MultiTextFieldView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MultiTextFieldView/MultiTextFieldView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MultiTextFieldView/MultiTextFieldView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MultiTextFieldView/MultiTextFieldView.modulemap";
+				PRODUCT_MODULE_NAME = MultiTextFieldView;
+				PRODUCT_NAME = MultiTextFieldView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30C746F3B6A806FFD082654AD9C0E8BA /* Build configuration list for PBXNativeTarget "Pods-OTPPinEntryViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D9026CFCEADE9050B43BE0120BBF44 /* Debug */,
+				673D8C4D21463E6441666CFC06B7650B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */,
+				7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A48D21C5014F666CBE052A1A99FD770 /* Build configuration list for PBXNativeTarget "MultiTextFieldView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2327D980A37B1907C3872D78F2286ED2 /* Debug */,
+				DE41BA8F5E61B5E9262BCC53DBF96A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
