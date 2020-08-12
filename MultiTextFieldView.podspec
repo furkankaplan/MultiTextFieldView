@@ -81,6 +81,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/furkankaplan/MultiTextFieldView.git", :tag => "#{spec.version}" }
   #spec.source = { :path => "." }
 
+  spec.swift_version = "4.1"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
